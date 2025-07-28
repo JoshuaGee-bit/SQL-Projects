@@ -70,5 +70,4 @@ VALUES
 ('10', 'Blessing', 'Mark', 'Blessing.mark@gmail.com', '0803‑123‑0010', 'Uyo');
 </pre> 
 
-![image alt] (https://github.com/JoshuaGee-bit/SQL-Projects/blob/2c31414af7a3f2aa3048f3d9b8c481ce702dc598/CustomerTB.png)
-
+![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/01405202269d7c5220bf59948c941d86b60643a5/CustomerTB.png)

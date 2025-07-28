@@ -112,5 +112,5 @@ join producttb p on o.productid = p.productid
 GROUP BY c.FirstName, c.LastName, p.ProductName, o.Quantity,p.UnitPrice;
 </pre>
 
-![image alt
+![image alt]()
 

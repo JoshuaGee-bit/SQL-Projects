@@ -93,4 +93,6 @@ FROM CustomerTB
 ORDER BY LastName ASC, FirstName ASC; 
 </pre> 
 
-![image alt]()
+![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/6b4e81d1a2cfd91373fd45b8b8ea99e70544a2c8/List%20all%20customers%E2%80%99%20full%20names%20in%20ascending%20alphabetical%20order%20(LastName%2C%20then%20FirstName)%20.png)
+
+

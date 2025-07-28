@@ -81,4 +81,6 @@ select c.firstname, c.email from customerTB c
 join OrdersTB o on c.CustomerID = o.CustomerID 
 join ProductTB p on o.ProductID = p.ProductID 
 where p.ProductID=1 
-</pre> ![image alt]()
+</pre> 
+
+![image alt]()

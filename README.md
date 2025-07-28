@@ -143,3 +143,7 @@ ORDER BY TotalRevenue DESC;
 ![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/6caf18f30f8ea7701c4ccd7f7ef07c9b21e9b4ad/Which%20city%20generated%20the%20highest%20revenue%20for%20AxiaStores.png)
 
 
+## References 
+- [Axia Africa SQL Exam](https://drive.google.com/file/d/13chnDFUr7NqbyPSRqy65d9pgeVCM86Ix/view)
+- [Axia Africa](https://student.axia.africa)
+

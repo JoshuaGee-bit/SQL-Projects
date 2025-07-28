@@ -112,5 +112,8 @@ join producttb p on o.productid = p.productid
 GROUP BY c.FirstName, c.LastName, p.ProductName, o.Quantity,p.UnitPrice;
 </pre>
 
-![image alt]()
+![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/20bf2eca4effb170e6cc7f235ec1e41e291528df/Show%20every%20order%20together%20with%20the%20customer%E2%80%99s%20full%20name%2C%20the%20product%20name%2C%20quantity%2C%20Unit%20Price%20and%20Total%20Price.png)
+
+
+
 

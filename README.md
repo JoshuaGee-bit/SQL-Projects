@@ -128,3 +128,16 @@ ORDER BY AverageSales DESC;
 ![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/abd2eabd9e4a938487ce05a49f577c7aa30a18f4/Show%20average%20sales%20per%20product%20category%20and%20sort%20in%20descending%20order.png)
 
 
+5. **Which city generated the highest revenue for AxiaStores?**
+<pre> --Which city generated the highest revenue for AxiaStores? 
+SELECT c.City, 
+SUM(p.UnitPrice) AS TotalUnitPrice, 
+SUM(o.Quantity) AS TotalQuantity, 
+SUM(p.UnitPrice * o.Quantity) AS TotalRevenue 
+FROM CustomerTB c JOIN OrdersTB o ON c.CustomerID = o.CustomerID 
+JOIN ProductTB p ON o.ProductID = p.ProductID 
+GROUP BY c.City 
+ORDER BY TotalRevenue DESC;
+</pre> 
+
+![image alt]

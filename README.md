@@ -115,5 +115,15 @@ GROUP BY c.FirstName, c.LastName, p.ProductName, o.Quantity,p.UnitPrice;
 ![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/20bf2eca4effb170e6cc7f235ec1e41e291528df/Show%20every%20order%20together%20with%20the%20customer%E2%80%99s%20full%20name%2C%20the%20product%20name%2C%20quantity%2C%20Unit%20Price%20and%20Total%20Price.png)
 
 
+4. **Show average sales per product category and sort in descending order**
+<pre>
+--Show average sales per product category and sort in descending order
+SELECT p.Category, 
+AVG(o.Quantity) AS AverageSales 
+FROM ProductTB p JOIN OrdersTB o ON p.ProductID = o.ProductID 
+GROUP BY p.Category 
+ORDER BY AverageSales DESC; 
+</pre> 
 
+![image alt]
 

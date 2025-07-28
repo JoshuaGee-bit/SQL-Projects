@@ -96,3 +96,21 @@ ORDER BY LastName ASC, FirstName ASC;
 ![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/6b4e81d1a2cfd91373fd45b8b8ea99e70544a2c8/List%20all%20customers%E2%80%99%20full%20names%20in%20ascending%20alphabetical%20order%20(LastName%2C%20then%20FirstName)%20.png)
 
 
+3. **Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.**
+<pre> 
+--Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date. 
+select
+c.FirstName, 
+c.LastName,
+p.productname,
+o.quantity, 
+p.unitprice,
+sum (p.unitprice * o.quantity) as 'total price' 
+from CustomerTB c 
+join ordertb o on c.customerid = c.customerid
+join producttb p on o.productid = p.productid 
+GROUP BY c.FirstName, c.LastName, p.ProductName, o.Quantity,p.UnitPrice;
+</pre>
+
+![image alt
+

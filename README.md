@@ -71,3 +71,14 @@ VALUES
 </pre> 
 
 ![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/01405202269d7c5220bf59948c941d86b60643a5/CustomerTB.png)
+
+
+## Answers to Analytical Questions and Results 
+1. **Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”**
+<pre> 
+--Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse” 
+select c.firstname, c.email from customerTB c
+join OrdersTB o on c.CustomerID = o.CustomerID 
+join ProductTB p on o.ProductID = p.ProductID 
+where p.ProductID=1 
+</pre> ![image alt]()

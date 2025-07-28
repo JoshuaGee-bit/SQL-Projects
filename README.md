@@ -140,4 +140,6 @@ GROUP BY c.City
 ORDER BY TotalRevenue DESC;
 </pre> 
 
-![image alt]
+![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/6caf18f30f8ea7701c4ccd7f7ef07c9b21e9b4ad/Which%20city%20generated%20the%20highest%20revenue%20for%20AxiaStores.png)
+
+

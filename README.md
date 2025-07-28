@@ -5,6 +5,13 @@ This project demonstrates a complete SQL based solution for an Electronic and Ac
 
 
 ## Table of Content
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Tools and Methodologies](#tools-and-methodologies)
+- [Key Analytical Questions](#key-analytical-questions)
+- [Samples of SQL Queries and Results](#samples-of-sql-queries-and-results)
+- [Answers to Analytical Questions and Results](#answers-to-analytical-questions-and-results)
+- [References](#references) 
 
 
 

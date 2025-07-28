@@ -125,5 +125,6 @@ GROUP BY p.Category
 ORDER BY AverageSales DESC; 
 </pre> 
 
-![image alt]
+![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/abd2eabd9e4a938487ce05a49f577c7aa30a18f4/Show%20average%20sales%20per%20product%20category%20and%20sort%20in%20descending%20order.png)
+
 

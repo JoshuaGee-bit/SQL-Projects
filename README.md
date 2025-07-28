@@ -84,3 +84,13 @@ where p.ProductID=1
 </pre> 
 
 ![image alt](https://github.com/JoshuaGee-bit/SQL-Projects/blob/697671aa1bb335e9f63d46a98222a677cf4b4092/Return%20the%20FirstName%20and%20Email%20of%20every%20customer%20who%20has%20ever%20purchased%20the%20product%20Wireless%20Mouse.png)
+
+2. **List all customers’ full names in ascending alphabetical order (LastName, then FirstName)**
+<pre>
+--List all customers’ full names in ascending alphabetical order (LastName, then FirstName) 
+SELECT FirstName, LastName 
+FROM CustomerTB 
+ORDER BY LastName ASC, FirstName ASC; 
+</pre> 
+
+![image alt]()
